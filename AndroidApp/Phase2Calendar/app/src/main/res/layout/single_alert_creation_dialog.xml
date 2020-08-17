@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/title"
+              android:id="@+id/edit_title"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/startdateddmmyyyy" android:layout_below="@+id/edit_title"
+              android:id="@+id/start_date"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@id/start_date"
+            android:hint="@string/dd"
+            android:id="@+id/start_day"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/start_day"
+            android:layout_below="@+id/start_date"
+            android:hint="@string/mm"
+            android:id="@+id/start_month"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/start_month"
+            android:layout_below="@id/start_date"
+            android:hint="@string/yyyy"
+            android:id="@+id/start_year"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/starttimehhmm" android:layout_below="@+id/edit_title"
+              android:layout_toRightOf="@id/start_year" android:layout_marginLeft="80dp"
+              android:id="@+id/start_time"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@id/start_time"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@id/start_year"
+            android:hint="@string/hh"
+            android:id="@+id/start_hour"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/colon" android:layout_below="@+id/start_time"
+              android:layout_marginTop="13dp"
+              android:textStyle="bold"
+              android:layout_toRightOf="@id/start_hour"
+              android:textSize="15dp"
+              android:id="@+id/start_time_colon"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/start_time_colon"
+            android:layout_below="@+id/start_time"
+            android:hint="@string/mm_lowercase"
+            android:id="@+id/start_minute"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/start_minute"
+              android:hint="@string/description"
+              android:id="@+id/edit_description"/>
+
+</RelativeLayout>

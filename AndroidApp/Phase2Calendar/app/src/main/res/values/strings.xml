@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Phase2Calendar</string>
+
+    <string name="calendar_title">Calendar</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="registered">Thank you for Registering.</string>
+
+    <string name="button_view_event">View Event</string>
+    <string name="button_reply">Reply</string>
+    <string name="button_delete">X</string>
+    <string name="memo">You currently have no memo.</string>
+    <string name="newMemoBtn">Create a new memo</string>
+    <string name="memoBack">Back</string>
+    <string name="calendar">Calendar</string>
+
+    <string name="compose">Compose</string>
+    <string name="delete">Delete</string>
+    <string name="calendars">Calendars</string>
+    <string name="new_calendar">New Calendar</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+
+    <string name="goToMemo">Go to memo number:</string>
+    <string name="memoName">Enter a name for the new Memo</string>
+    <string name="memoDescription">Enter a description for the new Memo</string>
+    <string name="createMemo">create the new memo</string>
+    <string name="createEvent">create the new event</string>
+
+    <string name="starttime">Enter start time</string>
+    <string name="endtime">Enter end time</string>
+    <string name="enddate">Enter end date</string>
+    <string name="startdate">Enter start date</string>
+
+    <string name="messages">Messages</string>
+    <string name="recipient">Recipient</string>
+    <string name="content">Content</string>
+    <string name="selectEventToAttach">Select Event to Attach</string>
+    <string name="send">Send</string>
+    <string name="addEvent">Add Event</string>
+    <string name="title_activity_select_calendar_to_add_event">SelectCalendarToAddEventActivity</string>
+    <string name="new_event">New Event</string>
+    <string name="startdateddmmyyyy">Start Date (dd/mm/yyyy)</string>
+    <string name="enddateddmmyyyy">End Date (dd/mm/yyyy)</string>
+    <string name="starttimehhmm">Start Time (hh/mm)</string>
+    <string name="endtimehhmm">End Time (hh/mm)</string>
+    <string name="dd">dd</string>
+    <string name="mm">MM</string>
+    <string name="mm_lowercase">mm</string>
+    <string name="hh">hh</string>
+    <string name="yyyy">yyyy</string>
+    <string name="colon">:</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="manage_tags">Manage Tags</string>
+    <string name="add_an_alert">Add an Alert</string>
+    <string name="add_many_alerts">Add many Alerts</string>
+    <string name="view_memo">View Memo</string>
+    <string name="new_tag">New Tag</string>
+    <string name="manage_alerts">Manage Alerts</string>
+    <string name="create_a_new_alert">Create a New Alert</string>
+    <string name="create_many_new_alerts">Create Many New Alerts</string>
+    <string name="alert_frequency">Alert Frequency</string>
+    <string name="mins">mins</string>
+    <string name="hrs">hrs</string>
+    <string name="mths">mths</string>
+    <string name="days">days</string>
+    <string name="yrs">yrs</string>
+
+    <string name="delete_memo">Delete this Memo</string>
+    <string name="view_events">View Events</string>
+    <string name="add_event">associate an event with this memo</string>
+    <string name="memo_view_tip">To change or delete this memo, please find it on the memo screen from the user menu.
+    </string>
+    <string name="number_of_events">Number of Events</string>
+    <string name="num">num</string>
+    <string name="new_empty_series">New Empty Series</string>
+    <string name="new_day_gap_series">New Day Gap Series</string>
+    <string name="add_an_event">Add an Event</string>
+    <string name="search_by_event_name">Search by Event Name</string>
+    <string name="search_by_series_name">Search by Series Name</string>
+    <string name="search_by_date">Search by Date</string>
+    <string name="search_by_tag">Search by Tag</string>
+    <string name="memos">Memos</string>
+    <string name="events">Events</string>
+    <string name="series">Series</string>
+    <string name="before_this_date">Before This Date</string>
+    <string name="after_this_date">After This Date</string>
+    <string name="on_this_date">On This Date</string>
+    <string name="dateddmmyyyy">Date (dd/mm/yyyy)</string>
+
+</resources>

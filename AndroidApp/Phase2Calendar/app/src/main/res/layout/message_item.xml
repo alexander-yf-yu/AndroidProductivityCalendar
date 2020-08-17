@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   app:cardCornerRadius="4dp"
+                                    android:layout_marginBottom="4dp">
+
+    
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp">
+
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content"
+                                                     android:layout_height="wrap_content"
+                                                     android:textColor="@android:color/black"
+                                                     android:textStyle="bold"
+                                                     android:textSize="20dp"
+                                                    android:text="Text 1"
+                                                    android:id="@+id/senderView"/>
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content"
+                                                     android:layout_height="wrap_content"
+                                                     android:textColor="@android:color/black"
+                                                     android:textSize="15dp"
+                                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                    android:layout_below="@id/senderView"
+                                                     android:layout_margin="4dp"
+                                                    android:id="@+id/contentView"/>
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content"
+                                                    android:layout_below="@id/contentView"
+                                                    android:text="@string/button_view_event"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:id="@+id/viewEventButton"/>
+
+        <TextView android:layout_width="32dp"
+                                                   android:layout_height="32dp"
+                                                   android:layout_alignParentRight="true"
+                                                   android:layout_alignParentEnd="true"
+                                                   android:layout_alignParentTop="true"
+                                                   android:layout_margin="2dp"
+                                                   android:text="@string/button_delete"
+                                                   android:textSize="12dp"
+                                                    android:id="@+id/deleteMessageButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_alignParentLeft="true"
+                                                   android:layout_below="@id/contentView"
+                                                   android:text="@string/button_reply"
+                                                   android:id="@+id/replyButton"/>
+
+    </RelativeLayout>
+    
+</androidx.cardview.widget.CardView>

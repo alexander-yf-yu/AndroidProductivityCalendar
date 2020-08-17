@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity" android:padding="16dp">
+
+    <Button
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eventMenu"
+            android:text="@string/events"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView6"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" android:onClick="seriesMenu" android:layout_below="@+id/event"
+            android:id="@+id/series" android:text="@string/series"/>
+
+    <Button
+        android:id="@+id/memos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="memoMenu"
+        android:text="@string/memos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/series"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:textStyle="bold" android:textSize="30dp"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/search_by_event_name_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/series"
+        android:layout_marginTop="50dp"
+        android:onClick="openSearchByEventName"
+        android:text="@string/search_by_event_name" />
+
+    <Button
+            android:id="@+id/search_by_series_name_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openSearchBySeriesName"
+            android:text="@string/search_by_series_name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/search_by_event_name_button"/>
+
+    <Button
+            android:id="@+id/search_by_date_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openSearchByDate"
+            android:text="@string/search_by_date"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/search_by_series_name_button"/>
+
+    <Button
+            android:id="@+id/search_by_tag_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openSearchByTag"
+            android:text="@string/search_by_tag"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/search_by_date_button"/>
+
+</RelativeLayout>

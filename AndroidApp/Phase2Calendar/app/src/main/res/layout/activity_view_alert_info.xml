@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ViewAlertInfoActivity">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:text="The Weeknd After Hours Concert" android:layout_marginBottom="8dp"
+              android:layout_marginTop="16dp"
+              android:textStyle="bold"
+              android:textSize="@dimen/font_size_medium"
+              android:id="@+id/title_view"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:text="Starts: 09/31/2020 18:00" android:layout_below="@id/title_view"
+              android:id="@+id/start_view"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_margin="16dp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              android:layout_below="@id/start_view" android:id="@+id/description_view"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_above="@+id/delete_alert_button" android:layout_centerHorizontal="true"
+            android:id="@+id/edit_alert_button" android:text="@string/edit_event" android:onClick="openDialog" android:layout_marginBottom="16dp"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:id="@+id/delete_alert_button" android:text="@string/delete_event"
+            android:onClick="deleteAlert" android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>

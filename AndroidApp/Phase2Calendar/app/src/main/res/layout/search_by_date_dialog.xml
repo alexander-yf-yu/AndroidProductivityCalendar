@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/dateddmmyyyy"
+              android:id="@+id/start_date"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@id/start_date"
+            android:hint="@string/dd"
+            android:id="@+id/search_day"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/search_day"
+            android:layout_below="@+id/start_date"
+            android:hint="@string/mm"
+            android:id="@+id/search_month"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/search_month"
+            android:layout_below="@id/start_date"
+            android:hint="@string/yyyy"
+            android:id="@+id/search_year"/>
+
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radioGroup" android:layout_below="@+id/search_year">
+
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:text="@string/before_this_date" android:id="@+id/before_this_date_button"
+                     android:checked="true"/>
+
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:text="@string/on_this_date" android:id="@+id/on_this_date_button"/>
+
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:text="@string/after_this_date" android:id="@+id/after_this_date_button"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
